@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin:0 ;
+    text-decoration: none;
+    list-style: none;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../pic/20.png);
+    background-size: cover;
+    position: relative;
+}
+.logo img{
+    width: 100px;
+} 
+.logo{
+    height: 10vh;
+    width: 10%;
+    top:0;
+/*    background-color: black;*/
+    position:absolute;
+}
+.nav{
+    height: 10vh;
+    width: 90%;
+    top:0px;
+    right:0;
+/*    background-color: aqua;*/
+    position: absolute;
+}
+
+
+.bb{
+    font-size: 25px;
+    color: #000;
+}
+.home ul li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: 27px;
+  
+}
+.par{
+    height: 40%;
+    width: 40%;
+    top: 45%;
+    left: 7%;
+/*    background-color: aqua;*/
+    position: absolute;
+}
+.par h1{
+    margin-bottom: 15px
+}
+.par h2{
+    line-height: 30px;
+}
+.par button{
+    height: 40px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+a{
+    color: white
+}
+
+
+
+ .amr {
+     background-color: #fff;
+     width: 100%;
+     height: 60vh;
+     position: relative;
+ }
+
+ .amr .one {
+     position: absolute;
+     background: rgba(0, 122, 255, 0.2);
+     height: 40vh;
+     width: 20%;
+     margin: 5%;
+     margin-left: 200px;
+     text-align: center;
+
+ }
+
+ .amr .one img {
+     margin-top: 20px;
+ }
+
+ .amr .one p {
+     margin-top: 40px;
+ }
+
+ .amr .two {
+     position: absolute;
+     background: rgba(0, 120, 255, 0.2);
+     height: 40vh;
+     width: 20%;
+     margin: 5%;
+     right: 35%;
+     text-align: center;
+ }
+
+ .amr .two img {
+     margin-top: 20px;
+ }
+
+ .amr .two p {
+     margin-top: 40px;
+ }
+
+ .amr .there {
+     position: absolute;
+     background: rgba(0, 122, 255, 0.2);
+     height: 40vh;
+     width: 20%;
+     margin: 5%;
+     right: 8%;
+     text-align: center;
+ }
+
+ .amr .there img {
+     margin-top: 20px;
+ }
+
+ .amr .there p {
+     margin-top: 40px;
+ }
+
+ .one:hover,
+ .two:hover,
+ .there:hover {
+     transform: translateY(-5px);
+ }
+        
+.help {
+     height: 100vh;
+     width: 100%;
+     background-color: #fff;
+     position: relative;
+ }
+
+ .right {
+     background-color: #fff;
+     width: 50%;
+     height: 100vh;
+     position: relative;
+ }
+
+
+
+ .right .one {
+     width: 280px;
+     height: 280px;
+     background-color: #aaa;
+     position: absolute;
+     top: 8%;
+     left: 5%;
+     background-image: url(../pic/100.jpg);
+     background-size: cover;
+
+
+ }
+
+ .right .two {
+     width: 280px;
+     height: 280px;
+     background-color: #aaa;
+     position: absolute;
+     top: 8%;
+     right: 5%;
+     background-image: url(../pic/101.jpg);
+     background-size: cover;
+
+
+ }
+
+ .right .there {
+     width: 80%;
+     height: 280px;
+     background-color: #aaa;
+     position: absolute;
+     top: 58%;
+     right: 10%;
+     background-image: url(../pic/102.jpeg);
+     background-size: cover;
+
+
+ }
+
+ .help .left {
+     background-color: #fff;
+     height: 100vh;
+     width: 45%;
+     position: absolute;
+     right: 0;
+     top: 0;
+
+ }
+
+ .help .left h1 {
+     text-align: left;
+     color: blue;
+     text-transform: capitalize;
+     margin-top: 75px
+ }
+
+ .help .left h2 {
+
+     font-size: 45px;
+     font-weight: 900;
+     /*        padding: 20px;*/
+     color: #032e42;
+     line-height: 55px;
+     text-align: left;
+     text-transform: capitalize;
+     margin-top: 50px;
+     margin-bottom: 50px
+ }
+
+ .help .left p {
+
+     font-size: 15px;
+     font-weight: 900;
+     padding: 20px;
+     color: #032e42;
+     line-height: 20px;
+     text-align: left;
+     text-transform: capitalize;
+     margin-top: 50px;
+     margin-bottom: 50px
+ }
+
+ .help .left h4 {
+     /*    margin-left: 50px;*/
+     float: left;
+ }
+
+ .help .left img {
+     float: left;
+
+     margin-left: 5px
+ }
+
+ .help .left button {
+     /*    border: none;*/
+     margin-left: 150px;
+     text-align: center;
+     font-size: 20px;
+     width: 200px;
+     height: 60px;
+
+ }
+
+ .help .left button:hover {
+     background-color: #3D6CB1;
+     border: 2px solid white;
+     color: white;
+     cursor: pointer;
+     transform: scale(1.03);
+ }
+    
+.laptop{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    margin-top: 200px
+}
+.form
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);display: none;
+    text-align: center;
+    color: rgb(0, 73, 239);
+    line-height: 50px
+}
+
+
+.form img
+{
+    width: 350px;
+    margin-top: 50px
+}
+.form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    
+    
+.form button{
+    
+  color: white;
+    background-color: black; 
+     width: 200px;
+     height: 60px;
+    margin-top: 20px;
+    border: 0px;
+
+ }
+
+ .form button:hover {
+    
+     background-color: white; 
+     color: black
+    
+ }
+.close
+{
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.link{
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    padding-left: 18%;
+    box-sizing: border-box;
+}
+
+.link ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+.link ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px;
+    padding-right: 70px;
+    box-sizing: border-box;
+    padding-left: 70px;
+    
+}
+.cardes {
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+    padding: 15px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+.slider  .card{
+    float: left;
+    box-sizing: border-box;
+    width: 27%;
+    height:55%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 25px 40px 25px 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-family: cursive;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.card .button
+{
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    color: #000;
+    border: 1px solid #000;
+    margin-top: 25px;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.slider  .card button:hover
+{
+    color: white;
+    background-color: #000;
+    transition: all .70s;
+}
+.slider  .card:hover{
+  box-shadow: none;
+  transition: all .75s;
+}
+.card img{
+    width: 100%;
+    height: 55%;
+    margin-bottom: 15px;
+}
+
+
+.kik{
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 300px;
+    
+    
+}
+.pic1{
+    height: 30vh;
+    width: 43%;
+    background-color: white;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    background-image: url(../pic/ri1.PNG);
+    background-size: cover
+}
+.pic2{
+    height: 30vh;
+    width: 43%;
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    background-image: url(../pic/le2.PNG);
+    background-size: cover
+}
+
+
+.footer{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    
+    
+    
+}
+.hd{
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: inline-block
+}
+.about{
+    position: absolute;
+    height: 70%;
+    width: 10%;
+/*    background-color: aqua;*/
+    top:20px;
+    left: 5%;
+    
+}
+.Ways{
+    position: absolute;
+    height: 70%;
+    width: 10%;
+/*    background-color: aqua;*/
+    left: 16%;
+    top:20px;
+}
+.Support{
+    position: absolute;
+    height: 70%;
+    width: 10%;
+/*    background-color: aqua;*/
+    left: 26%;
+    top:20px;
+}
+
+.Partners{
+    position: absolute;
+    height: 70%;
+    width: 10%;
+/*    background-color: aqua;*/
+    left: 38%;
+    top:20px;
+}
+
+.font{
+     position: absolute;
+    height: 35%;
+    width: 20%;
+/*    background-color: aqua;*/
+    left: 50%;
+    top:25px;
+}
+.font h2{
+    margin-top: 50px;
+    color: white;
+    
+}
+.font i{
+    margin-right: 10px;
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+}
+
+
+ul li {
+    margin-bottom: 10px;
+    color: white
+}
+.vido{
+    height: 60%;
+    width: 35%;
+    right: 1%;
+    top: 15%;
+    position: absolute;
+    background-color: white
+}
